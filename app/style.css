@@ -1,0 +1,94 @@
+*
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}   
+
+header
+{
+    background-color: lightgray;
+    background-position: center;
+    
+}
+
+.name
+{
+    color: black;
+    font-family: "Robot", sans-serif;
+    font-size: 35px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+
+}
+
+.main-nav a 
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Robot", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a 
+{
+    border: 1px solid black;
+}
+
+.main-nav li a:hover 
+{
+    border: 1px solid white;
+}
+
+.row  
+{
+    padding: 1%;
+    border-bottom: double;
+    background-color: lightgray;
+    
+}
+
+.headshot 
+{
+    width: 10%;
+    height: 10%;
+}
+
+h1 
+{
+    color: black;
+    
+}
+
+p 
+{
+    color: black;
+}
+
+.content
+{
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
